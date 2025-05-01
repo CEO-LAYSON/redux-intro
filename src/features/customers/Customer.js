@@ -4,7 +4,11 @@ function Customer() {
   const customer = useSelector((store) => store.customer.fullName);
 
   console.log(customer);
-  return <h2>👋 Welcome, {customer}</h2>;
+  return (
+    <div>
+      <h2>👋 Welcome, {customer}</h2>
+    </div>
+  );
 }
 
 export default Customer;

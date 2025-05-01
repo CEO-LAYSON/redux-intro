@@ -1,4 +1,5 @@
-import { combineReducers, createStore } from "redux";
+/*
+ import { combineReducers, createStore } from "redux";
 //initial state where we assign all the initials
 const initialStateAccount = {
   balance: 0,
@@ -100,3 +101,5 @@ console.log(store.getState());
 
 store.dispatch(deposit(250));
 console.log(store.getState());
+
+*/
